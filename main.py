@@ -1,5 +1,8 @@
 from algorithm.fpGrowth import FPGrowth
 
+# Constants
+MINSUP = 2
+
 
 def strToList(input_data):
     data_list = [
@@ -22,4 +25,6 @@ if __name__ == '__main__':
 
     with open(args.input, 'r') as input_file, open(args.output, 'w') as output:
         data_list = strToList(input_file)
-        results = FPGrowth(data_list)
+
+        Process = FPGrowth(data_list)
+        fp_dict = Process.find_fp(MINSUP)
