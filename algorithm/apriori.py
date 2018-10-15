@@ -7,7 +7,8 @@ class Apriori:
         item_counts = self._count_min_items(input_dataset)
         item_set = set(frozenset([item]) for item in item_counts.keys())
         print(item_set)
-        self.fp_dict = self._generate_fp(input_dataset, item_set)
+        self.fp_dict = self._generate_fp(input_dataset, item_set, item_counts)
+        print(self.fp_dict)
     #
     # Part 1: Basic Process
     #
@@ -25,7 +26,9 @@ class Apriori:
 
         item_counts = count_items(input_dataset)
         return {key: value for key, value in item_counts.items() if value >= self.minsup}
-
+    #
+    # Part 2: Candidates
+    #
     def _generate_next_candidates(self, last_candidates):
         def self_joining(candidates):
             candidates_set = set()
@@ -55,8 +58,8 @@ class Apriori:
             for transaction in input_dataset:
                 for candidate in candidates:
                     check_set = transaction.union(candidate)
-                    if (len(check_set) == len(transaction)):
-                        key = tuple(candidate)
+                    if len(check_set) == len(transaction):
+                        key = ','.join(candidate)
                         if key not in current_fp_dict:
                             current_fp_dict[key] = 1
                         else:
@@ -67,14 +70,19 @@ class Apriori:
         return {key: value for key, value in current_fp_dict.items() if value >= self.minsup}
 
 
-    def _generate_fp(self, input_dataset, item_set):
-        final_fp = {}
-        isFinished = False
-        # while isFinished != True:
-        candidates = self._generate_next_candidates(item_set)
-        print(candidates)
-        new_fp = self._filter_minsup(input_dataset, candidates)
-        print(new_fp)
+    def _generate_fp(self, input_dataset, item_set, item_counts):
+        final_fp_dict = {**item_counts}
 
+        while True:
+            candidates = self._generate_next_candidates(item_set)
+            print(candidates)
+            new_fp_dict = self._filter_minsup(input_dataset, candidates)
+            print(new_fp_dict)
+            if len(new_fp_dict) == 0:
+                break
+            else:
+                final_fp_dict = {**final_fp_dict, **new_fp_dict}
+            item_set = set(frozenset(transaction) for transaction in new_fp_dict.keys())
+            print(item_set)
 
-        return final_fp
+        return final_fp_dict
