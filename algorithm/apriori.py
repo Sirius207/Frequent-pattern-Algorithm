@@ -1,3 +1,8 @@
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+logger.setLevel(level=logging.INFO)
 
 class Apriori:
     def __init__(self, input_data, minsup):
@@ -6,9 +11,8 @@ class Apriori:
         input_dataset = list(map(set, input_data))
         item_counts = self._count_min_items(input_dataset)
         item_set = set(frozenset([item]) for item in item_counts.keys())
-        print(item_set)
+
         self.fp_dict = self._generate_fp(input_dataset, item_set, item_counts)
-        print(self.fp_dict)
     #
     # Part 1: Basic Process
     #
@@ -59,7 +63,7 @@ class Apriori:
                 for candidate in candidates:
                     check_set = transaction.union(candidate)
                     if len(check_set) == len(transaction):
-                        key = ','.join(candidate)
+                        key = tuple(candidate)
                         if key not in current_fp_dict:
                             current_fp_dict[key] = 1
                         else:
@@ -75,14 +79,14 @@ class Apriori:
 
         while True:
             candidates = self._generate_next_candidates(item_set)
-            print(candidates)
             new_fp_dict = self._filter_minsup(input_dataset, candidates)
-            print(new_fp_dict)
+
             if len(new_fp_dict) == 0:
                 break
             else:
                 final_fp_dict = {**final_fp_dict, **new_fp_dict}
-            item_set = set(frozenset(transaction) for transaction in new_fp_dict.keys())
-            print(item_set)
 
+            item_set = set(frozenset(transaction) for transaction in new_fp_dict.keys())
+
+        logger.info(final_fp_dict)
         return final_fp_dict
