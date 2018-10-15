@@ -1,5 +1,9 @@
 from algorithm.utility import FPTree
+import logging
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+logger.setLevel(level=logging.INFO)
 
 class FPGrowth:
     def __init__(self, input_data, minsup):
@@ -133,6 +137,6 @@ class FPGrowth:
         for key in pop_list:
             fp_dict.pop(key, 'None')
 
-        print(fp_dict)
+        logger.info(fp_dict)
         return fp_dict
 
