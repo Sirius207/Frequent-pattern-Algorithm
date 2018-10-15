@@ -1,6 +1,6 @@
-# Apriori-Algorithm
+# Frequent Patterns Algorithm
 
-An Algorithm for Association Rule Mining & Frequent Patterns
+Algorithm for Frequent Patterns Mining
 
 ## Usage
 
@@ -9,4 +9,5 @@ An Algorithm for Association Rule Mining & Frequent Patterns
 ```
 
 ## Content
+- Apriori Algorithm
 - FP Growth
