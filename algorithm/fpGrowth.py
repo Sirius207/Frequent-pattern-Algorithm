@@ -57,6 +57,7 @@ class FPGrowth:
         def find_suffix_patterns(item, current_node, storage):
             for node_name in current_node.children:
                 next_node = current_node.children[node_name]
+                # When finding key pattern, log its path
                 if node_name == item:
                     for i in range(next_node.counts):
                         storage['suffix_patterns'].append(','.join(storage['path_list']))
@@ -75,7 +76,7 @@ class FPGrowth:
                     path_list.append(node_name)
                     current_path = ','.join(path_list)
 
-                    if len(path_list) != 1:
+                    if len(path_list) > 1:
                         full_path = node_name + ',' + item
                         if full_path not in fp_dict:
                             fp_dict[full_path] = next_node.counts
@@ -95,6 +96,7 @@ class FPGrowth:
             else:
                 path_list.pop()
 
+        # start find patterns
         fp_dict = {}
         for item in self.sorted_items:
             # find suffix patterns
@@ -107,11 +109,12 @@ class FPGrowth:
             combined_pattern = self._build_FPTree(storage['suffix_patterns'])
             find_single_fp(item, combined_pattern, [], fp_dict)
 
-        # remove patterns that < minsup
-        pop_list = []
+        # add single item counts
         for key in self.item_counts:
             fp_dict[key] = self.item_counts[key]
 
+        # remove patterns that counts < minsup
+        pop_list = []
         for key in fp_dict:
             if fp_dict[key] < minsup:
                pop_list.append(key)
