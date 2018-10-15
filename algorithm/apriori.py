@@ -2,11 +2,12 @@
 class Apriori:
     def __init__(self, input_data, minsup):
         self.minsup = minsup
-        self.input_dataset = list(map(set, input_data))
-        self.item_counts = self._count_min_items(self.input_dataset)
-        self.item_set = set(frozenset([item]) for item in self.item_counts.keys())
-        print(self.item_set)
-        self.fp_dict = self._generate_fp(self.input_dataset, self.item_set)
+
+        input_dataset = list(map(set, input_data))
+        item_counts = self._count_min_items(input_dataset)
+        item_set = set(frozenset([item]) for item in item_counts.keys())
+        print(item_set)
+        self.fp_dict = self._generate_fp(input_dataset, item_set)
     #
     # Part 1: Basic Process
     #
@@ -67,10 +68,13 @@ class Apriori:
 
 
     def _generate_fp(self, input_dataset, item_set):
-        fp = {}
+        final_fp = {}
+        isFinished = False
+        # while isFinished != True:
         candidates = self._generate_next_candidates(item_set)
         print(candidates)
         new_fp = self._filter_minsup(input_dataset, candidates)
         print(new_fp)
 
-        return fp
+
+        return final_fp
