@@ -11,6 +11,8 @@ class FPGrowth:
         self.sorted_data = self._convert_data(input_data)
         self.sorted_items = self._get_sorted_items(self.item_counts)
         self.fp_tree = self._build_FPTree(self.sorted_data)
+        # final results: Frequent Patterns
+        self.fp_dict = self._find_fp(minsup)
 
     #
     # Part 1: Basic Process
@@ -68,7 +70,7 @@ class FPGrowth:
     #
     # Part 2: Frequent Patterns
     #
-    def find_fp(self, minsup):
+    def _find_fp(self, minsup):
         def find_suffix_patterns(item, current_node, storage):
             for node_name in current_node.children:
                 next_node = current_node.children[node_name]
