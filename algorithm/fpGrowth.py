@@ -2,10 +2,10 @@ from algorithm.utility import FPTree
 
 
 class FPGrowth:
-    def __init__(self, input_data):
-        self.item_counts = self._count_items(input_data)
+    def __init__(self, input_data, minsup):
+        self.item_counts = self._count_min_items(input_data, minsup)
+        self.sorted_data = self._convert_data(input_data)
         self.sorted_items = self._get_sorted_items(self.item_counts)
-        self.sorted_data = self._sort_data(input_data)
         self.fp_tree = self._build_FPTree(self.sorted_data)
 
     #
@@ -21,6 +21,11 @@ class FPGrowth:
                     item_counts[item] += 1
         return item_counts
 
+    # filter items which counts small than minsup
+    def _count_min_items(self, input_data, minsup):
+        item_counts = self._count_items(input_data)
+        return {key: value for key, value in item_counts.items() if value >= minsup}
+
     def _sort_transaction(self, transaction, reverse=True):
         def sortByCounts(item):
             return self.item_counts[item]
@@ -28,11 +33,18 @@ class FPGrowth:
         transaction.sort(key=sortByCounts, reverse=reverse)
         return transaction
 
+    def _convert_transaction(self, transaction):
+        # filter items which counts small than minsup
+        filtered_transaction = [item for item in transaction if item in self.item_counts]
+        # sort desceding
+        sorted_transaction = self._sort_transaction(filtered_transaction)
+        return sorted_transaction
+
+    def _convert_data(self, input_data):
+        return list(map(self._convert_transaction, input_data))
+
     def _get_sorted_items(self, item_counts):
         return self._sort_transaction(list(item_counts.keys()), False)
-
-    def _sort_data(self, input_data):
-        return list(map(self._sort_transaction, input_data))
 
     def _build_FPTree(self, data_list):
         Root = FPTree()
@@ -52,7 +64,6 @@ class FPGrowth:
     #
     # Part 2: Frequent Patterns
     #
-
     def find_fp(self, minsup):
         def find_suffix_patterns(item, current_node, storage):
             for node_name in current_node.children:

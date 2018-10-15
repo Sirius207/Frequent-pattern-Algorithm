@@ -26,5 +26,5 @@ if __name__ == '__main__':
     with open(args.input, 'r') as input_file, open(args.output, 'w') as output:
         data_list = strToList(input_file)
 
-        Process = FPGrowth(data_list)
+        Process = FPGrowth(data_list, MINSUP)
         fp_dict = Process.find_fp(MINSUP)
