@@ -1,6 +1,6 @@
-# Frequent Patterns Algorithm
+# Frequent-pattern Algorithm
 
-Algorithm for Frequent Patterns Mining
+Algorithms for Frequent-pattern Mining
 
 ## Usage
 
