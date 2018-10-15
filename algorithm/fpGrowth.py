@@ -1,9 +1,23 @@
-from algorithm.utility import FPTree
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(level=logging.INFO)
+
+class FPTree:
+    def __init__(self):
+        self.counts = 1
+        self.children = None
+
+    def insert_node(self, item):
+        if self.children == None:
+            self.children = {}
+            self.children[item] = FPTree()
+        elif item not in self.children:
+            self.children[item] = FPTree()
+        else:
+            self.children[item].counts += 1
+
 
 class FPGrowth:
     def __init__(self, input_data, minsup):
