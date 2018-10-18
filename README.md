@@ -8,6 +8,9 @@ Algorithms for Frequent-pattern Mining
 
 ```
 
-## Content
+## Implementation
 - Apriori Algorithm
 - FP Growth
+
+## Dataset
+- [Kaggle: Random Shopping cart](https://www.kaggle.com/fanatiks/shopping-cart)
