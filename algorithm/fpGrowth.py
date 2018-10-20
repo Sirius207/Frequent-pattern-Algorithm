@@ -105,17 +105,17 @@ class FPGrowth:
                 for node_name in current_node.children:
                     next_node = current_node.children[node_name]
                     path_list.append(node_name)
-                    current_path = ','.join(path_list)
+                    current_path = '-'.join(path_list)
 
                     if len(path_list) > 1:
-                        full_path = node_name + ',' + item
+                        full_path = node_name + '-' + item
                         if full_path not in fp_dict:
                             fp_dict[full_path] = next_node.counts
                         else:
                             fp_dict[full_path] += next_node.counts
 
                     if len(current_path) > 0:
-                        full_path = current_path + ',' + item
+                        full_path = current_path + '-' + item
                         if full_path not in fp_dict:
                             fp_dict[full_path] = next_node.counts
                         else:

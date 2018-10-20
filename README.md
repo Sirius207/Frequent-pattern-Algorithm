@@ -6,7 +6,7 @@ Algorithms for Frequent-pattern Mining
 
 ```
 // sample
-python main.py --input data/sample.txt --output output.txt --minsup '2' --algorithm fp
+python main.py --input data/sample.txt --output output.csv --minsup '2' --algorithm fp
 ```
 - input: input data file name
 - output: output file name

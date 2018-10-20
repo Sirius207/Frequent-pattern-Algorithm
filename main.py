@@ -30,7 +30,7 @@ if __name__ == '__main__':
                        default='data/sample.txt',
                        help='input data file name')
     parser.add_argument('--output',
-                        default='output.txt',
+                        default='output.csv',
                         help='output file name')
     parser.add_argument('--minsup',
                        default=2,
@@ -41,7 +41,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     with open(args.input, 'r') as input_file, open(args.output, 'w') as output:
-        output.write('pattern, counts')
+        output.write('pattern, counts\n')
 
         data_list = str_to_list(input_file)
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         (fp_duration, fp_results) = get_results(fp_algorithm, data_list, int(args.minsup))
 
         for key in fp_results.fp_dict:
-            output.write(str(key) + ':' + str(fp_results.fp_dict[key]))
+            output.write(str(key) + ',' + str(fp_results.fp_dict[key]))
             output.write('\n')
 
         print(fp_duration)
