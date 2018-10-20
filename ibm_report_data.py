@@ -15,7 +15,7 @@ EXP_TIMES = 2
 
 
 algorithm_dict = {
-    # 'fpg': FPGrowth,
+    'fpg': FPGrowth,
     'apr': Apriori
 }
 
@@ -26,7 +26,7 @@ ibm_file_configs = [
     ['20', '5', '30']
 ]
 
-output_file_path = './results/ibm_ap.csv'
+output_file_path = './results/ibm.csv'
 
 
 def str_to_list(input_data):
