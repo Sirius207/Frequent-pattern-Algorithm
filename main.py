@@ -37,7 +37,7 @@ if __name__ == '__main__':
                        help='input minsup')
     parser.add_argument('--algorithm',
                        default='fp',
-                       help='input minsup')
+                       help='frequent pattern algorithm')
     args = parser.parse_args()
 
     with open(args.input, 'r') as input_file, open(args.output, 'w') as output:
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
         fp_algorithm = algorithm_list[args.algorithm]
 
-        (fp_duration, fp_results) = get_results(fp_algorithm, data_list, args.minsup)
+        (fp_duration, fp_results) = get_results(fp_algorithm, data_list, int(args.minsup))
 
         for key in fp_results.fp_dict:
             output.write(str(key) + ':' + str(fp_results.fp_dict[key]))
