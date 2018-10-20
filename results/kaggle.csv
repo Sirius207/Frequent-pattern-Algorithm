@@ -1,0 +1,13 @@
+data,minsup,fp_num,algorithm,time
+cart_dataset_v2,0.05,74,fpg,1.4029932022094727
+cart_dataset_v2,0.06,89,fpg,1.3951029777526855
+cart_dataset_v2,0.07,104,fpg,1.4277231693267822
+cart_dataset_v2,0.08,119,fpg,1.3651578426361084
+cart_dataset_v2,0.09,134,fpg,1.427504062652588
+cart_dataset_v2,0.1,149,fpg,1.4152781963348389
+cart_dataset_v2,0.05,74,apr,1111.981204032898
+cart_dataset_v2,0.06,89,apr,629.5752408504486
+cart_dataset_v2,0.07,104,apr,177.5021059513092
+cart_dataset_v2,0.08,119,apr,39.36630606651306
+cart_dataset_v2,0.09,134,apr,33.06560826301575
+cart_dataset_v2,0.1,149,apr,33.00599002838135
