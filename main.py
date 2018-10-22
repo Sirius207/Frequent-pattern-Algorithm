@@ -33,21 +33,25 @@ if __name__ == '__main__':
                         default='output.csv',
                         help='output file name')
     parser.add_argument('--minsup',
-                       default=2,
+                       default=0.3,
                        help='input minsup')
     parser.add_argument('--algorithm',
                        default='fp',
                        help='frequent pattern algorithm')
+
     args = parser.parse_args()
 
     with open(args.input, 'r') as input_file, open(args.output, 'w') as output:
-        output.write('pattern, counts\n')
+        # Part: 1
+        # find frequent patterns
+        #
+        output.write('pattern,counts\n')
 
         data_list = str_to_list(input_file)
 
         fp_algorithm = algorithm_list[args.algorithm]
-
-        (fp_duration, fp_results) = get_results(fp_algorithm, data_list, int(args.minsup))
+        minsup = int( float(args.minsup) * len(data_list) )
+        (fp_duration, fp_results) = get_results(fp_algorithm, data_list, minsup)
 
         for key in fp_results.fp_dict:
             output.write(str(key) + ',' + str(fp_results.fp_dict[key]))
