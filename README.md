@@ -34,3 +34,4 @@ python rules.py --minconfidence 0.2 --input patterns.csv --output rules.csv
 - IBM Quest Synthetic Data Generator
 
 ## Report
+- [Jupyter Notebook](https://nbviewer.jupyter.org/github/Sirius207/Frequent-pattern-Algorithm/blob/master/Report.ipynb)
