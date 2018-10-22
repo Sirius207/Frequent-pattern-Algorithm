@@ -1,0 +1,1510 @@
+rule,confidence,support
+eggs->vegetables,0.8515358361774744,499
+yogurt->vegetables,0.8452173913043478,486
+laundry detergent->vegetables,0.8409090909090909,481
+aluminum foil->vegetables,0.8263069139966274,490
+spaghetti sauce->vegetables,0.8253119429590018,463
+sugar->vegetables,0.824468085106383,465
+ice cream->vegetables,0.8240270727580372,487
+dishwashing liquid/detergent->vegetables,0.8210702341137124,491
+waffles->vegetables,0.8196994991652755,491
+sandwich bags->vegetables,0.8188405797101449,452
+cheeses->vegetables,0.8175675675675675,484
+milk->vegetables,0.8158347676419966,474
+poultry-paper towels->vegetables,0.8154506437768241,190
+soda->vegetables,0.8149405772495756,480
+paper towels->vegetables,0.8096085409252669,455
+ketchup->vegetables,0.8095238095238095,442
+fruits->vegetables,0.8088495575221238,457
+individual meals->vegetables,0.8073555166374781,461
+shampoo->vegetables,0.8072727272727273,444
+sandwich loaves->vegetables,0.8071428571428572,452
+cereals->vegetables,0.8071065989847716,477
+soap->vegetables,0.8048780487804879,462
+flour->vegetables,0.8047445255474452,441
+bagels->vegetables,0.8040885860306644,472
+lunch meat->vegetables,0.8036912751677853,479
+pasta->vegetables,0.8031358885017421,461
+poultry->vegetables,0.8028846153846154,501
+poultry-sandwich loaves->vegetables,0.8024691358024691,195
+all- purpose->vegetables,0.8006993006993007,458
+butter->vegetables,0.7978910369068541,454
+mixes->vegetables,0.7972270363951474,460
+pork->vegetables,0.7956204379562044,436
+poultry-aluminum foil->vegetables,0.7954545454545454,210
+dinner rolls->vegetables,0.7920962199312714,461
+poultry-yogurt->vegetables,0.79182156133829,213
+juice->vegetables,0.7916666666666666,456
+hand soap->vegetables,0.7914338919925512,425
+poultry-sugar->vegetables,0.7910447761194029,212
+toilet paper->vegetables,0.7910189982728842,458
+beef->vegetables,0.7907801418439716,446
+poultry-dishwashing liquid/detergent->vegetables,0.7900355871886121,222
+poultry-dinner rolls->vegetables,0.7836879432624113,221
+poultry-pasta->vegetables,0.7833333333333333,188
+tortillas->vegetables,0.7826855123674912,443
+coffee/tea->vegetables,0.7768166089965398,449
+poultry-shampoo->vegetables,0.7682926829268293,189
+poultry-bagels->vegetables,0.7550200803212851,188
+poultry-soda->vegetables,0.7547169811320755,200
+poultry-fruits->vegetables,0.7439024390243902,183
+poultry-soap->vegetables,0.737037037037037,199
+poultry-ketchup->vegetables,0.7310924369747899,174
+dinner rolls->poultry,0.4845360824742268,282
+vegetables-dinner rolls->poultry,0.4793926247288503,221
+sugar->poultry,0.475177304964539,268
+sandwich bags->cheeses,0.4746376811594203,262
+soap->poultry,0.47038327526132406,270
+dishwashing liquid/detergent->poultry,0.4698996655518395,281
+beef->poultry,0.46808510638297873,264
+yogurt->juice,0.4678260869565217,269
+yogurt->poultry,0.4678260869565217,269
+juice->yogurt,0.4670138888888889,269
+laundry detergent->poultry,0.46678321678321677,267
+mixes->poultry,0.4662045060658579,269
+shampoo->dinner rolls,0.46545454545454545,256
+spaghetti sauce->cheeses,0.46345811051693403,260
+spaghetti sauce->poultry,0.46345811051693403,260
+soda->waffles,0.4601018675721562,271
+shampoo->juice,0.46,253
+ice cream->aluminum foil,0.45854483925549916,271
+eggs->soda,0.45733788395904434,268
+aluminum foil->ice cream,0.45699831365935917,271
+sandwich bags->poultry,0.45652173913043476,252
+vegetables-sugar->poultry,0.4559139784946237,212
+yogurt->aluminum foil,0.45565217391304347,262
+ice cream->cheeses,0.45516074450084604,269
+soda->eggs,0.45500848896434637,268
+fruits->dishwashing liquid/detergent,0.45486725663716815,257
+juice->poultry,0.4548611111111111,262
+lunch meat->poultry,0.4546979865771812,271
+cheeses->ice cream,0.4543918918918919,269
+mixes->dishwashing liquid/detergent,0.4540727902946274,262
+coffee/tea->poultry,0.4532871972318339,262
+juice->toilet paper,0.453125,261
+waffles->soda,0.4524207011686144,271
+yogurt->waffles,0.45217391304347826,260
+vegetables-dishwashing liquid/detergent->poultry,0.45213849287169044,222
+poultry->dinner rolls,0.4519230769230769,282
+fruits->bagels,0.45132743362831856,255
+spaghetti sauce->soda,0.45098039215686275,253
+spaghetti sauce->bagels,0.45098039215686275,253
+toilet paper->juice,0.45077720207253885,261
+ketchup->mixes,0.45054945054945056,246
+poultry->dishwashing liquid/detergent,0.45032051282051283,281
+soda->poultry,0.44991511035653653,265
+bagels->dishwashing liquid/detergent,0.4497444633730835,264
+pasta->dishwashing liquid/detergent,0.44947735191637633,258
+milk->soda,0.44922547332185886,261
+toilet paper->waffles,0.44905008635578586,260
+mixes->aluminum foil,0.4488734835355286,259
+individual meals->lunch meat,0.44833625218914186,256
+lunch meat->waffles,0.44798657718120805,267
+soap->lunch meat,0.44773519163763065,257
+pasta->eggs,0.44773519163763065,257
+vegetables-coffee/tea->poultry,0.44766146993318484,201
+milk->poultry,0.4475043029259897,260
+toilet paper->cheeses,0.4473229706390328,259
+shampoo->poultry,0.44727272727272727,246
+paper towels->lunch meat,0.44661921708185054,251
+paper towels->pasta,0.44661921708185054,251
+individual meals->dishwashing liquid/detergent,0.44658493870402804,255
+fruits->waffles,0.44601769911504424,252
+soap->soda,0.445993031358885,256
+milk->eggs,0.4457831325301205,259
+waffles->lunch meat,0.44574290484140233,267
+spaghetti sauce->juice,0.44563279857397503,250
+toilet paper->milk,0.44559585492227977,258
+flour->soda,0.44525547445255476,244
+aluminum foil->poultry,0.4451939291736931,264
+sugar->waffles,0.4450354609929078,251
+dinner rolls->soda,0.44501718213058417,259
+ice cream->poultry,0.4450084602368866,263
+paper towels->ice cream,0.44483985765124556,250
+individual meals->poultry,0.4448336252189142,254
+butter->cheeses,0.4446397188049209,253
+coffee/tea->waffles,0.444636678200692,257
+juice->aluminum foil,0.4444444444444444,256
+milk->toilet paper,0.4440619621342513,258
+aluminum foil->waffles,0.44350758853288363,263
+cereals->poultry,0.4433164128595601,262
+dishwashing liquid/detergent->waffles,0.4431438127090301,265
+soda->milk,0.4431239388794567,261
+vegetables-poultry->dishwashing liquid/detergent,0.4431137724550898,222
+lunch meat->dishwashing liquid/detergent,0.4429530201342282,264
+cheeses->sandwich bags,0.44256756756756754,262
+pasta->soda,0.4425087108013937,254
+waffles->dishwashing liquid/detergent,0.44240400667779634,265
+milk->dishwashing liquid/detergent,0.4423407917383821,257
+spaghetti sauce->mixes,0.44206773618538325,248
+eggs->milk,0.44197952218430037,259
+aluminum foil->yogurt,0.4418212478920742,262
+flour->dishwashing liquid/detergent,0.4416058394160584,242
+beef->aluminum foil,0.44148936170212766,249
+sugar->dinner rolls,0.44148936170212766,249
+dishwashing liquid/detergent->bagels,0.4414715719063545,264
+dishwashing liquid/detergent->lunch meat,0.4414715719063545,264
+paper towels->eggs,0.4412811387900356,248
+coffee/tea->aluminum foil,0.4411764705882353,255
+coffee/tea->cereals,0.4411764705882353,255
+vegetables-poultry->dinner rolls,0.4411177644710579,221
+cheeses->poultry,0.4408783783783784,261
+soap->aluminum foil,0.44076655052264807,253
+milk->cereals,0.4406196213425129,256
+spaghetti sauce->dinner rolls,0.44028520499108736,247
+sandwich bags->milk,0.44021739130434784,243
+shampoo->bagels,0.44,242
+yogurt->cheeses,0.44,253
+yogurt->eggs,0.44,253
+dinner rolls->shampoo,0.43986254295532645,256
+pork->juice,0.4397810218978102,241
+pork->poultry,0.4397810218978102,241
+soda->dinner rolls,0.4397283531409168,259
+sugar->lunch meat,0.4397163120567376,248
+sugar->soda,0.4397163120567376,248
+paper towels->dishwashing liquid/detergent,0.4395017793594306,247
+butter->poultry,0.43936731107205623,250
+juice->shampoo,0.4392361111111111,253
+cheeses->spaghetti sauce,0.4391891891891892,260
+cheeses->aluminum foil,0.4391891891891892,260
+waffles->aluminum foil,0.43906510851419034,263
+pasta->dinner rolls,0.43902439024390244,252
+pasta->cheeses,0.43902439024390244,252
+milk->bagels,0.4388984509466437,255
+laundry detergent->dishwashing liquid/detergent,0.4388111888111888,251
+toilet paper->poultry,0.4386873920552677,254
+eggs->pasta,0.43856655290102387,257
+spaghetti sauce->lunch meat,0.4385026737967914,246
+aluminum foil->cheeses,0.43844856661045534,260
+vegetables-yogurt->poultry,0.4382716049382716,213
+dishwashing liquid/detergent->mixes,0.43812709030100333,262
+beef->cereals,0.4379432624113475,247
+hand soap->poultry,0.4376163873370577,235
+cheeses->toilet paper,0.4375,259
+cheeses->dishwashing liquid/detergent,0.4375,259
+pasta->paper towels,0.4372822299651568,251
+soap->cheeses,0.4372822299651568,251
+milk->aluminum foil,0.43717728055077454,254
+laundry detergent->lunch meat,0.4370629370629371,250
+laundry detergent->dinner rolls,0.4370629370629371,250
+eggs->cheeses,0.43686006825938567,256
+eggs->poultry,0.43686006825938567,256
+aluminum foil->mixes,0.43676222596964587,259
+spaghetti sauce->pasta,0.43672014260249553,245
+yogurt->bagels,0.4365217391304348,251
+soda->dishwashing liquid/detergent,0.4363327674023769,257
+flour->cheeses,0.43613138686131386,239
+flour->poultry,0.43613138686131386,239
+ketchup->coffee/tea,0.4358974358974359,238
+ketchup->poultry,0.4358974358974359,238
+butter->toilet paper,0.4358523725834798,248
+fruits->lunch meat,0.4353982300884956,246
+fruits->poultry,0.4353982300884956,246
+spaghetti sauce->eggs,0.43493761140819964,244
+spaghetti sauce->beef,0.43493761140819964,244
+soda->soap,0.43463497453310695,256
+shampoo->lunch meat,0.43454545454545457,239
+bagels->fruits,0.434412265758092,255
+bagels->milk,0.434412265758092,255
+sugar->cereals,0.43439716312056736,245
+individual meals->aluminum foil,0.4343257443082312,248
+pork->mixes,0.4343065693430657,238
+poultry->lunch meat,0.4342948717948718,271
+ketchup->juice,0.4340659340659341,237
+waffles->yogurt,0.4340567612687813,260
+waffles->toilet paper,0.4340567612687813,260
+juice->spaghetti sauce,0.4340277777777778,250
+juice->bagels,0.4340277777777778,250
+sandwich loaves->soap,0.43392857142857144,243
+sandwich loaves->poultry,0.43392857142857144,243
+mixes->dinner rolls,0.43327556325823224,250
+mixes->cereals,0.43327556325823224,250
+cereals->milk,0.43316412859560066,256
+spaghetti sauce->laundry detergent,0.43315508021390375,243
+dishwashing liquid/detergent->cheeses,0.4331103678929766,259
+yogurt->cereals,0.4330434782608696,249
+dinner rolls->pasta,0.4329896907216495,252
+dinner rolls->cheeses,0.4329896907216495,252
+sandwich bags->soda,0.4329710144927536,239
+tortillas->mixes,0.43286219081272087,245
+tortillas->poultry,0.43286219081272087,245
+bagels->aluminum foil,0.43270868824531517,254
+poultry->soap,0.4326923076923077,270
+beef->spaghetti sauce,0.4326241134751773,244
+coffee/tea->ice cream,0.43252595155709345,250
+flour->aluminum foil,0.4324817518248175,237
+cheeses->eggs,0.43243243243243246,256
+paper towels->mixes,0.43238434163701067,243
+soap->eggs,0.43205574912891986,248
+soap->dishwashing liquid/detergent,0.43205574912891986,248
+pasta->ice cream,0.43205574912891986,248
+fruits->aluminum foil,0.431858407079646,244
+fruits->ice cream,0.431858407079646,244
+laundry detergent->soda,0.4318181818181818,247
+laundry detergent->eggs,0.4318181818181818,247
+eggs->yogurt,0.431740614334471,253
+eggs->waffles,0.431740614334471,253
+eggs->dishwashing liquid/detergent,0.431740614334471,253
+aluminum foil->juice,0.4317032040472175,256
+cereals->coffee/tea,0.43147208121827413,255
+ice cream->lunch meat,0.43147208121827413,255
+ice cream->waffles,0.43147208121827413,255
+dishwashing liquid/detergent->pasta,0.431438127090301,258
+vegetables-sandwich loaves->poultry,0.4314159292035398,195
+yogurt->soda,0.43130434782608695,248
+dinner rolls->eggs,0.43127147766323026,251
+soda->pasta,0.4312393887945671,254
+lunch meat->soap,0.4312080536912752,257
+sandwich bags->soap,0.4311594202898551,238
+poultry->yogurt,0.4310897435897436,269
+poultry->mixes,0.4310897435897436,269
+bagels->spaghetti sauce,0.43100511073253833,253
+sugar->ice cream,0.4308510638297872,243
+vegetables-soap->poultry,0.43073593073593075,199
+pork->waffles,0.4306569343065693,236
+paper towels->milk,0.4306049822064057,242
+vegetables->poultry,0.43041237113402064,501
+ketchup->waffles,0.43040293040293043,235
+hand soap->mixes,0.4301675977653631,231
+fruits->cheeses,0.4300884955752212,243
+laundry detergent->cereals,0.43006993006993005,246
+toilet paper->bagels,0.43005181347150256,249
+aluminum foil->coffee/tea,0.4300168634064081,255
+mixes->spaghetti sauce,0.42980935875216636,248
+mixes->bagels,0.42980935875216636,248
+dishwashing liquid/detergent->fruits,0.4297658862876254,257
+dishwashing liquid/detergent->milk,0.4297658862876254,257
+dishwashing liquid/detergent->soda,0.4297658862876254,257
+dinner rolls->laundry detergent,0.42955326460481097,250
+dinner rolls->mixes,0.42955326460481097,250
+dinner rolls->aluminum foil,0.42955326460481097,250
+dinner rolls->dishwashing liquid/detergent,0.42955326460481097,250
+soda->spaghetti sauce,0.4295415959252971,253
+lunch meat->individual meals,0.42953020134228187,256
+poultry->sugar,0.42948717948717946,268
+sandwich bags->aluminum foil,0.42934782608695654,237
+sandwich bags->waffles,0.42934782608695654,237
+vegetables-poultry->laundry detergent,0.4291417165668663,215
+shampoo->soda,0.4290909090909091,236
+individual meals->bagels,0.4290718038528897,245
+individual meals->cheeses,0.4290718038528897,245
+individual meals->soda,0.4290718038528897,245
+waffles->coffee/tea,0.4290484140233723,257
+pork->aluminum foil,0.42883211678832117,235
+pork->dishwashing liquid/detergent,0.42883211678832117,235
+flour->yogurt,0.42883211678832117,235
+butter->laundry detergent,0.4288224956063269,244
+vegetables->eggs,0.42869415807560135,499
+ketchup->ice cream,0.42857142857142855,234
+sandwich loaves->cheeses,0.42857142857142855,240
+vegetables-aluminum foil->poultry,0.42857142857142855,210
+aluminum foil->milk,0.42833052276559863,254
+aluminum foil->bagels,0.42833052276559863,254
+eggs->dinner rolls,0.4283276450511945,251
+toilet paper->butter,0.4283246977547496,248
+toilet paper->eggs,0.4283246977547496,248
+cereals->dishwashing liquid/detergent,0.428087986463621,253
+poultry->laundry detergent,0.42788461538461536,267
+lunch meat->ice cream,0.4278523489932886,255
+soda->aluminum foil,0.42784380305602715,252
+dinner rolls->sugar,0.42783505154639173,249
+yogurt-> purpose-all,0.42782608695652175,246
+spaghetti sauce->cereals,0.42780748663101603,240
+bagels->yogurt,0.42759795570698467,251
+sandwich bags->mixes,0.427536231884058,236
+sandwich bags->laundry detergent,0.427536231884058,236
+cheeses->butter,0.42736486486486486,253
+cheeses->yogurt,0.42736486486486486,253
+coffee/tea->lunch meat,0.4273356401384083,247
+beef->ice cream,0.42730496453900707,241
+beef->yogurt,0.42730496453900707,241
+shampoo->aluminum foil,0.42727272727272725,235
+vegetables-poultry->lunch meat,0.42714570858283435,214
+butter->soda,0.4270650263620387,243
+butter->dinner rolls,0.4270650263620387,243
+pork-> purpose-all,0.42700729927007297,234
+pasta->spaghetti sauce,0.4268292682926829,245
+soap->cereals,0.4268292682926829,245
+ketchup->bagels,0.4267399267399267,233
+aluminum foil->soap,0.4266441821247892,253
+eggs->bagels,0.42662116040955633,250
+laundry detergent->butter,0.42657342657342656,244
+laundry detergent->cheeses,0.42657342657342656,244
+laundry detergent->milk,0.42657342657342656,244
+dishwashing liquid/detergent->individual meals,0.42642140468227424,255
+mixes->ketchup,0.42634315424610053,246
+dinner rolls->cereals,0.4261168384879725,248
+dinner rolls->waffles,0.4261168384879725,248
+yogurt->milk,0.4260869565217391,245
+yogurt->toilet paper,0.4260869565217391,245
+yogurt->dishwashing liquid/detergent,0.4260869565217391,245
+spaghetti sauce->waffles,0.42602495543672014,239
+bagels->juice,0.42589437819420783,250
+bagels->eggs,0.42589437819420783,250
+tortillas->lunch meat,0.42579505300353354,241
+sandwich bags->lunch meat,0.4257246376811594,235
+waffles->ice cream,0.4257095158597663,255
+vegetables-shampoo->poultry,0.42567567567567566,189
+cheeses->pasta,0.42567567567567566,252
+cheeses->dinner rolls,0.42567567567567566,252
+individual meals->soap,0.425569176882662,243
+beef->eggs,0.425531914893617,240
+beef->fruits,0.425531914893617,240
+beef->dishwashing liquid/detergent,0.425531914893617,240
+shampoo->beef,0.4254545454545455,234
+shampoo->sandwich loaves,0.4254545454545455,234
+juice->lunch meat,0.4253472222222222,245
+butter->lunch meat,0.4253075571177504,242
+paper towels->soda,0.42526690391459077,239
+paper towels->waffles,0.42526690391459077,239
+pork->lunch meat,0.4251824817518248,233
+flour->soap,0.4251824817518248,233
+vegetables-poultry->yogurt,0.4251497005988024,213
+pasta->soap,0.4250871080139373,244
+soap->pasta,0.4250871080139373,244
+sandwich loaves->mixes,0.425,238
+aluminum foil->soda,0.42495784148397975,252
+ketchup->dinner rolls,0.4249084249084249,232
+ketchup->soap,0.4249084249084249,232
+ketchup-> purpose-all,0.4249084249084249,232
+ketchup->laundry detergent,0.4249084249084249,232
+laundry detergent->spaghetti sauce,0.42482517482517484,243
+laundry detergent->mixes,0.42482517482517484,243
+fruits->beef,0.4247787610619469,240
+poultry->soda,0.42467948717948717,265
+mixes->tortillas,0.4246100519930676,245
+hand soap->dinner rolls,0.4245810055865922,228
+hand soap->waffles,0.4245810055865922,228
+soda->ice cream,0.4244482173174873,250
+dinner rolls->spaghetti sauce,0.42439862542955326,247
+yogurt->dinner rolls,0.42434782608695654,244
+bagels->toilet paper,0.424190800681431,249
+bagels->cheeses,0.424190800681431,249
+bagels->poultry,0.424190800681431,249
+tortillas->bagels,0.42402826855123676,240
+cheeses->soap,0.4239864864864865,251
+cheeses->waffles,0.4239864864864865,251
+beef->soda,0.4237588652482269,239
+sugar->pasta,0.4237588652482269,239
+sugar->dishwashing liquid/detergent,0.4237588652482269,239
+shampoo->cereals,0.42363636363636364,233
+juice->coffee/tea,0.4236111111111111,244
+paper towels-> purpose-all,0.4234875444839858,238
+soap->sandwich loaves,0.42334494773519166,243
+soap->individual meals,0.42334494773519166,243
+soap->ice cream,0.42334494773519166,243
+soap->milk,0.42334494773519166,243
+pasta->aluminum foil,0.42334494773519166,243
+pasta->waffles,0.42334494773519166,243
+sandwich loaves->lunch meat,0.4232142857142857,237
+sandwich loaves->ice cream,0.4232142857142857,237
+eggs->paper towels,0.4232081911262799,248
+eggs-> purpose-all,0.4232081911262799,248
+eggs->soap,0.4232081911262799,248
+eggs->toilet paper,0.4232081911262799,248
+eggs->cereals,0.4232081911262799,248
+vegetables-poultry->sugar,0.4231536926147705,212
+toilet paper->yogurt,0.4231433506044905,245
+ketchup->dishwashing liquid/detergent,0.4230769230769231,231
+poultry->beef,0.4230769230769231,264
+dishwashing liquid/detergent->eggs,0.4230769230769231,253
+dishwashing liquid/detergent->cereals,0.4230769230769231,253
+poultry->aluminum foil,0.4230769230769231,264
+ice cream->paper towels,0.4230118443316413,250
+cereals->mixes,0.4230118443316413,250
+ice cream->coffee/tea,0.4230118443316413,250
+ice cream->soda,0.4230118443316413,250
+ice cream->dishwashing liquid/detergent,0.4230118443316413,250
+hand soap->milk,0.4227188081936685,227
+yogurt->lunch meat,0.4226086956521739,243
+vegetables-sandwich bags->poultry,0.4225663716814159,191
+bagels->mixes,0.42248722316865417,248
+spaghetti sauce->milk,0.42245989304812837,237
+waffles->eggs,0.42237061769616024,253
+tortillas->eggs,0.42226148409893993,239
+coffee/tea->juice,0.42214532871972316,244
+vegetables-tortillas->poultry,0.4221218961625282,187
+sandwich bags->dishwashing liquid/detergent,0.4221014492753623,233
+individual meals->ice cream,0.4220665499124343,241
+beef->milk,0.4219858156028369,238
+beef->waffles,0.4219858156028369,238
+sugar->yogurt,0.4219858156028369,238
+sugar->cheeses,0.4219858156028369,238
+vegetables->dishwashing liquid/detergent,0.4218213058419244,491
+vegetables->waffles,0.4218213058419244,491
+shampoo->mixes,0.4218181818181818,232
+paper towels->toilet paper,0.42170818505338076,237
+paper towels->bagels,0.42170818505338076,237
+milk->yogurt,0.42168674698795183,245
+milk->ice cream,0.42168674698795183,245
+soap->juice,0.42160278745644597,242
+aluminum foil->dinner rolls,0.42158516020236086,250
+aluminum foil->dishwashing liquid/detergent,0.42158516020236086,250
+eggs->laundry detergent,0.42150170648464164,247
+poultry->ice cream,0.421474358974359,263
+sandwich loaves-> purpose-all,0.42142857142857143,236
+sandwich loaves->individual meals,0.42142857142857143,236
+sandwich loaves->coffee/tea,0.42142857142857143,236
+toilet paper->lunch meat,0.4214162348877375,244
+toilet paper->ice cream,0.4214162348877375,244
+laundry detergent->aluminum foil,0.42132867132867136,241
+laundry detergent->ice cream,0.42132867132867136,241
+cereals->yogurt,0.4213197969543147,249
+cereals->cheeses,0.4213197969543147,249
+ketchup->eggs,0.42124542124542125,230
+ketchup->toilet paper,0.42124542124542125,230
+ketchup->cheeses,0.42124542124542125,230
+mixes->paper towels,0.42114384748700173,243
+mixes->laundry detergent,0.42114384748700173,243
+mixes->cheeses,0.42114384748700173,243
+lunch meat->paper towels,0.4211409395973154,251
+soda->sugar,0.42105263157894735,248
+soda->yogurt,0.42105263157894735,248
+soda->cheeses,0.42105263157894735,248
+dinner rolls->bagels,0.4209621993127148,245
+vegetables->aluminum foil,0.4209621993127148,490
+yogurt->ice cream,0.42086956521739133,242
+bagels->waffles,0.42078364565587734,247
+waffles->fruits,0.42070116861435725,252
+spaghetti sauce-> purpose-all,0.4206773618538324,236
+cheeses->bagels,0.4206081081081081,249
+cheeses->cereals,0.4206081081081081,249
+coffee/tea->dinner rolls,0.4204152249134948,243
+individual meals->waffles,0.4203152364273205,240
+sandwich bags->butter,0.42028985507246375,232
+sandwich bags->bagels,0.42028985507246375,232
+sugar->toilet paper,0.42021276595744683,237
+juice->soap,0.4201388888888889,242
+juice->ice cream,0.4201388888888889,242
+shampoo->toilet paper,0.42,231
+milk->laundry detergent,0.4199655765920826,244
+paper towels->juice,0.4199288256227758,236
+paper towels->cereals,0.4199288256227758,236
+aluminum foil->beef,0.41989881956155145,249
+poultry->juice,0.4198717948717949,262
+poultry->coffee/tea,0.4198717948717949,262
+poultry->cereals,0.4198717948717949,262
+soap-> purpose-all,0.41986062717770034,241
+soap->toilet paper,0.41986062717770034,241
+pasta->cereals,0.41986062717770034,241
+dishwashing liquid/detergent->laundry detergent,0.4197324414715719,251
+pork->eggs,0.4197080291970803,230
+pork->coffee/tea,0.4197080291970803,230
+ice cream->pasta,0.4196277495769882,248
+cereals->dinner rolls,0.4196277495769882,248
+cereals->eggs,0.4196277495769882,248
+fruits->yogurt,0.4194690265486726,237
+lunch meat->laundry detergent,0.41946308724832215,250
+ketchup->soda,0.4194139194139194,229
+soda->laundry detergent,0.41935483870967744,247
+dinner rolls->yogurt,0.41924398625429554,244
+vegetables-poultry->mixes,0.41916167664670656,210
+vegetables-poultry->eggs,0.41916167664670656,210
+vegetables-poultry->aluminum foil,0.41916167664670656,210
+yogurt->beef,0.4191304347826087,241
+waffles->sugar,0.41903171953255425,251
+waffles-> purpose-all,0.41903171953255425,251
+waffles->cheeses,0.41903171953255425,251
+hand soap->soda,0.41899441340782123,225
+hand soap->pasta,0.41899441340782123,225
+hand soap->sugar,0.41899441340782123,225
+cheeses->soda,0.4189189189189189,248
+spaghetti sauce->aluminum foil,0.41889483065953653,235
+spaghetti sauce->individual meals,0.41889483065953653,235
+spaghetti sauce->fruits,0.41889483065953653,235
+coffee/tea->eggs,0.4186851211072664,242
+coffee/tea->soda,0.4186851211072664,242
+individual meals->eggs,0.4185639229422067,239
+sandwich bags->ice cream,0.41847826086956524,231
+sandwich bags->beef,0.41847826086956524,231
+beef->dinner rolls,0.41843971631205673,236
+beef->bagels,0.41843971631205673,236
+sugar->soap,0.41843971631205673,236
+sugar->individual meals,0.41843971631205673,236
+juice->pork,0.4184027777777778,241
+vegetables->ice cream,0.4183848797250859,487
+butter->mixes,0.4182776801405975,238
+butter->individual meals,0.4182776801405975,238
+butter->dishwashing liquid/detergent,0.4182776801405975,238
+poultry->cheeses,0.4182692307692308,261
+milk->sandwich bags,0.41824440619621345,243
+milk->soap,0.41824440619621345,243
+aluminum foil->individual meals,0.418212478920742,248
+paper towels->aluminum foil,0.4181494661921708,235
+paper towels->coffee/tea,0.4181494661921708,235
+pasta-> purpose-all,0.4181184668989547,240
+soap->waffles,0.4181184668989547,240
+pasta->poultry,0.4181184668989547,240
+dishwashing liquid/detergent->dinner rolls,0.4180602006688963,250
+dishwashing liquid/detergent->ice cream,0.4180602006688963,250
+dishwashing liquid/detergent->aluminum foil,0.4180602006688963,250
+cereals->beef,0.4179357021996616,247
+pork->soda,0.41788321167883213,229
+pork->bagels,0.41788321167883213,229
+flour->lunch meat,0.41788321167883213,229
+flour->dinner rolls,0.41788321167883213,229
+sandwich loaves->shampoo,0.41785714285714287,234
+sandwich loaves->aluminum foil,0.41785714285714287,234
+sandwich loaves->bagels,0.41785714285714287,234
+sandwich loaves->waffles,0.41785714285714287,234
+laundry detergent->juice,0.4178321678321678,239
+lunch meat-> purpose-all,0.41778523489932884,249
+fruits->cereals,0.4176991150442478,236
+mixes->soda,0.41767764298093585,241
+ketchup->aluminum foil,0.4175824175824176,228
+vegetables-paper towels->poultry,0.4175824175824176,190
+dinner rolls->butter,0.4175257731958763,243
+vegetables->yogurt,0.4175257731958763,486
+dinner rolls->coffee/tea,0.4175257731958763,243
+dinner rolls->lunch meat,0.4175257731958763,243
+bagels->individual meals,0.41737649063032367,245
+bagels->dinner rolls,0.41737649063032367,245
+coffee/tea->milk,0.41695501730103807,241
+individual meals->butter,0.4168126094570928,238
+sandwich bags->yogurt,0.4166666666666667,230
+sandwich bags->cereals,0.4166666666666667,230
+poultry->spaghetti sauce,0.4166666666666667,260
+beef->toilet paper,0.4166666666666667,235
+poultry-> purpose-all,0.4166666666666667,260
+poultry->milk,0.4166666666666667,260
+vegetables-soda->poultry,0.4166666666666667,200
+milk->paper towels,0.4165232358003442,242
+eggs->spaghetti sauce,0.41638225255972694,244
+pasta->sugar,0.4163763066202091,239
+paper towels->individual meals,0.41637010676156583,234
+paper towels->beef,0.41637010676156583,234
+shampoo->yogurt,0.4163636363636364,229
+shampoo->cheeses,0.4163636363636364,229
+shampoo->coffee/tea,0.4163636363636364,229
+shampoo->paper towels,0.4163636363636364,229
+cereals->laundry detergent,0.41624365482233505,246
+toilet paper->soap,0.4162348877374784,241
+lunch meat->sugar,0.4161073825503356,248
+sandwich loaves->soda,0.4160714285714286,233
+sandwich loaves->juice,0.4160714285714286,233
+pork->soap,0.41605839416058393,228
+flour->mixes,0.41605839416058393,228
+soda->individual meals,0.4159592529711375,245
+mixes->milk,0.41594454072790293,240
+fruits->spaghetti sauce,0.415929203539823,235
+fruits-> purpose-all,0.415929203539823,235
+vegetables->cheeses,0.41580756013745707,484
+ketchup->spaghetti sauce,0.4157509157509158,227
+ketchup->sandwich bags,0.4157509157509158,227
+spaghetti sauce->paper towels,0.41532976827094475,233
+coffee/tea->toilet paper,0.41522491349480967,240
+coffee/tea->dishwashing liquid/detergent,0.41522491349480967,240
+tortillas->dinner rolls,0.41519434628975266,235
+tortillas->toilet paper,0.41519434628975266,235
+juice->laundry detergent,0.4149305555555556,239
+juice->soda,0.4149305555555556,239
+juice->milk,0.4149305555555556,239
+juice->waffles,0.4149305555555556,239
+beef->shampoo,0.4148936170212766,234
+beef->paper towels,0.4148936170212766,234
+beef->lunch meat,0.4148936170212766,234
+sandwich bags->tortillas,0.4148550724637681,229
+milk->coffee/tea,0.41480206540447506,241
+butter->aluminum foil,0.4147627416520211,236
+butter->eggs,0.4147627416520211,236
+butter->bagels,0.4147627416520211,236
+dishwashing liquid/detergent-> purpose-all,0.41471571906354515,248
+dishwashing liquid/detergent->soap,0.41471571906354515,248
+soap->sandwich bags,0.4146341463414634,238
+pasta->yogurt,0.4146341463414634,238
+pasta->toilet paper,0.4146341463414634,238
+paper towels->spaghetti sauce,0.41459074733096085,233
+paper towels->soap,0.41459074733096085,233
+paper towels->poultry,0.41459074733096085,233
+cereals->sugar,0.41455160744500846,245
+cereals->soap,0.41455160744500846,245
+ice cream->milk,0.41455160744500846,245
+shampoo->laundry detergent,0.41454545454545455,228
+shampoo->sugar,0.41454545454545455,228
+shampoo->waffles,0.41454545454545455,228
+toilet paper->coffee/tea,0.41450777202072536,240
+toilet paper->soda,0.41450777202072536,240
+lunch meat->coffee/tea,0.41442953020134227,247
+all- purpose->ice cream,0.4143356643356643,237
+soda->flour,0.4142614601018676,244
+soda->lunch meat,0.4142614601018676,244
+pork->beef,0.4142335766423358,227
+pork->milk,0.4142335766423358,227
+flour->milk,0.4142335766423358,227
+fruits->soda,0.41415929203539825,234
+waffles->dinner rolls,0.41402337228714525,248
+bagels->cereals,0.41396933560477,243
+ketchup->pasta,0.4139194139194139,226
+yogurt->sugar,0.41391304347826086,238
+yogurt->pasta,0.41391304347826086,238
+cheeses->individual meals,0.41385135135135137,245
+cheeses->lunch meat,0.41385135135135137,245
+spaghetti sauce->soap,0.41354723707664887,232
+individual meals->sandwich loaves,0.4133099824868651,236
+individual meals->sugar,0.4133099824868651,236
+individual meals->yogurt,0.4133099824868651,236
+vegetables->laundry detergent,0.41323024054982815,481
+juice->eggs,0.4131944444444444,238
+beef->soap,0.41312056737588654,233
+sugar-> purpose-all,0.41312056737588654,233
+milk->mixes,0.41308089500860584,240
+dishwashing liquid/detergent->paper towels,0.41304347826086957,247
+eggs->coffee/tea,0.4129692832764505,242
+soap->dinner rolls,0.41289198606271776,237
+soap->coffee/tea,0.41289198606271776,237
+pasta->juice,0.41289198606271776,237
+pasta->coffee/tea,0.41289198606271776,237
+ice cream->fruits,0.4128595600676819,244
+ice cream->toilet paper,0.4128595600676819,244
+paper towels->cheeses,0.4128113879003559,232
+toilet paper->aluminum foil,0.41278065630397237,239
+lunch meat->spaghetti sauce,0.412751677852349,246
+lunch meat->fruits,0.412751677852349,246
+shampoo->individual meals,0.4127272727272727,227
+vegetables-flour->poultry,0.4126984126984127,182
+laundry detergent->sandwich bags,0.4125874125874126,236
+laundry detergent->bagels,0.4125874125874126,236
+soda->butter,0.41256366723259763,243
+sandwich loaves->spaghetti sauce,0.4125,231
+mixes->pork,0.4124783362218371,238
+mixes->sandwich loaves,0.4124783362218371,238
+mixes->butter,0.4124783362218371,238
+mixes->eggs,0.4124783362218371,238
+pork->cheeses,0.4124087591240876,226
+flour->sugar,0.4124087591240876,226
+vegetables->soda,0.41237113402061853,480
+waffles->bagels,0.41235392320534225,247
+bagels->shampoo,0.4122657580919932,242
+yogurt->fruits,0.4121739130434783,237
+cheeses->laundry detergent,0.41216216216216217,244
+ketchup->pork,0.41208791208791207,225
+coffee/tea->ketchup,0.4117647058823529,238
+spaghetti sauce->sandwich loaves,0.4117647058823529,231
+spaghetti sauce->ice cream,0.4117647058823529,231
+coffee/tea->bagels,0.4117647058823529,238
+tortillas->milk,0.411660777385159,233
+individual meals->spaghetti sauce,0.4115586690017513,235
+hand soap->lunch meat,0.41154562383612664,221
+vegetables->lunch meat,0.4115120274914089,479
+aluminum foil->fruits,0.4114671163575042,244
+juice->ketchup,0.4114583333333333,237
+juice->pasta,0.4114583333333333,237
+juice->dishwashing liquid/detergent,0.4114583333333333,237
+milk->juice,0.4113597246127367,239
+milk->lunch meat,0.4113597246127367,239
+beef->coffee/tea,0.41134751773049644,232
+sugar->eggs,0.41134751773049644,232
+eggs->aluminum foil,0.4112627986348123,241
+butter->cereals,0.4112478031634446,234
+sandwich bags->ketchup,0.411231884057971,227
+vegetables-poultry->spaghetti sauce,0.4111776447105788,206
+vegetables-poultry->juice,0.4111776447105788,206
+ice cream->sugar,0.41116751269035534,243
+ice cream->soap,0.41116751269035534,243
+cereals->bagels,0.41116751269035534,243
+cereals->lunch meat,0.41116751269035534,243
+soap->sugar,0.41114982578397213,236
+pasta->bagels,0.41114982578397213,236
+lunch meat->juice,0.4110738255033557,245
+lunch meat->cheeses,0.4110738255033557,245
+toilet paper->pasta,0.4110535405872193,238
+paper towels->dinner rolls,0.4110320284697509,231
+shampoo->soap,0.4109090909090909,226
+shampoo-> purpose-all,0.4109090909090909,226
+soda->coffee/tea,0.41086587436332767,242
+laundry detergent->yogurt,0.41083916083916083,235
+laundry detergent->toilet paper,0.41083916083916083,235
+mixes->coffee/tea,0.41074523396880414,237
+mixes->waffles,0.41074523396880414,237
+sandwich loaves->yogurt,0.4107142857142857,230
+pork->ketchup,0.41058394160583944,225
+pork->yogurt,0.41058394160583944,225
+flour-> purpose-all,0.41058394160583944,225
+flour->coffee/tea,0.41058394160583944,225
+bagels->soda,0.41056218057921634,241
+cheeses->fruits,0.41047297297297297,243
+cheeses->mixes,0.41047297297297297,243
+yogurt->individual meals,0.41043478260869565,236
+yogurt->coffee/tea,0.41043478260869565,236
+ketchup->flour,0.41025641025641024,224
+poultry->eggs,0.41025641025641024,256
+coffee/tea->soap,0.4100346020761246,237
+coffee/tea->pasta,0.4100346020761246,237
+coffee/tea->mixes,0.4100346020761246,237
+spaghetti sauce->toilet paper,0.40998217468805703,230
+spaghetti sauce->dishwashing liquid/detergent,0.40998217468805703,230
+tortillas->waffles,0.4098939929328622,232
+tortillas->dishwashing liquid/detergent,0.4098939929328622,232
+individual meals->paper towels,0.4098073555166375,234
+individual meals->cereals,0.4098073555166375,234
+individual meals->coffee/tea,0.4098073555166375,234
+vegetables->cereals,0.4097938144329897,477
+aluminum foil->pasta,0.40978077571669475,243
+juice->paper towels,0.4097222222222222,236
+juice-> purpose-all,0.4097222222222222,236
+juice->dinner rolls,0.4097222222222222,236
+dishwashing liquid/detergent->yogurt,0.4096989966555184,245
+hand soap->aluminum foil,0.409683426443203,220
+milk->beef,0.40963855421686746,238
+beef->sandwich bags,0.4095744680851064,231
+beef->cheeses,0.4095744680851064,231
+sugar->laundry detergent,0.4095744680851064,231
+sugar->bagels,0.4095744680851064,231
+eggs->beef,0.40955631399317405,240
+eggs->ice cream,0.40955631399317405,240
+butter->ice cream,0.4094903339191564,233
+butter->pasta,0.4094903339191564,233
+butter->waffles,0.4094903339191564,233
+ice cream->yogurt,0.40947546531302875,242
+ice cream->juice,0.40947546531302875,242
+sandwich bags->pasta,0.40942028985507245,226
+sandwich bags->paper towels,0.40942028985507245,226
+lunch meat->toilet paper,0.40939597315436244,244
+lunch meat->soda,0.40939597315436244,244
+toilet paper->paper towels,0.40932642487046633,237
+toilet paper->sugar,0.40932642487046633,237
+vegetables-poultry->milk,0.4091816367265469,205
+soda->mixes,0.4091680814940577,241
+soda->bagels,0.4091680814940577,241
+shampoo->milk,0.4090909090909091,225
+all- purpose->toilet paper,0.4090909090909091,234
+laundry detergent->soap,0.4090909090909091,234
+waffles->poultry,0.4090150250417362,245
+mixes->sandwich bags,0.4090121317157712,236
+bagels->tortillas,0.4088586030664395,240
+bagels->ice cream,0.4088586030664395,240
+fruits->eggs,0.4088495575221239,231
+flour->ketchup,0.40875912408759124,224
+flour->eggs,0.40875912408759124,224
+yogurt->flour,0.40869565217391307,235
+yogurt->laundry detergent,0.40869565217391307,235
+yogurt->mixes,0.40869565217391307,235
+ketchup->sandwich loaves,0.4084249084249084,223
+ketchup->beef,0.4084249084249084,223
+ketchup->cereals,0.4084249084249084,223
+coffee/tea->sandwich loaves,0.4083044982698962,236
+coffee/tea->yogurt,0.4083044982698962,236
+spaghetti sauce->tortillas,0.40819964349376114,229
+individual meals->laundry detergent,0.4080560420315236,233
+juice->cereals,0.4079861111111111,235
+milk->spaghetti sauce,0.4079173838209983,237
+eggs->tortillas,0.40784982935153585,239
+eggs->individual meals,0.40784982935153585,239
+hand soap->ice cream,0.40782122905027934,219
+hand soap->eggs,0.40782122905027934,219
+hand soap->spaghetti sauce,0.40782122905027934,219
+hand soap->dishwashing liquid/detergent,0.40782122905027934,219
+vegetables-pasta->poultry,0.4078091106290672,188
+sugar->tortillas,0.4078014184397163,230
+ice cream->beef,0.4077834179357022,241
+ice cream->individual meals,0.4077834179357022,241
+ice cream->laundry detergent,0.4077834179357022,241
+cereals->pasta,0.4077834179357022,241
+butter->sandwich bags,0.4077328646748682,232
+lunch meat->yogurt,0.4077181208053691,243
+lunch meat->dinner rolls,0.4077181208053691,243
+lunch meat->cereals,0.4077181208053691,243
+soap->laundry detergent,0.4076655052264808,234
+toilet paper->cereals,0.4075993091537133,236
+paper towels->shampoo,0.40747330960854095,229
+paper towels->sugar,0.40747330960854095,229
+soda->toilet paper,0.4074702886247878,240
+laundry detergent->individual meals,0.40734265734265734,233
+all- purpose->milk,0.40734265734265734,233
+mixes->yogurt,0.4072790294627383,235
+shampoo->pasta,0.4072727272727273,224
+dinner rolls->soap,0.4072164948453608,237
+vegetables->milk,0.4072164948453608,474
+vegetables-poultry->ice cream,0.40718562874251496,204
+bagels->lunch meat,0.4071550255536627,239
+fruits->pasta,0.40707964601769914,230
+fruits->laundry detergent,0.40707964601769914,230
+fruits->mixes,0.40707964601769914,230
+poultry->individual meals,0.40705128205128205,254
+poultry->toilet paper,0.40705128205128205,254
+pork->sandwich bags,0.40693430656934304,223
+pork->tortillas,0.40693430656934304,223
+flour->laundry detergent,0.40693430656934304,223
+flour->toilet paper,0.40693430656934304,223
+flour->waffles,0.40693430656934304,223
+coffee/tea->paper towels,0.40657439446366783,235
+coffee/tea->cheeses,0.40657439446366783,235
+spaghetti sauce->yogurt,0.40641711229946526,228
+aluminum foil->laundry detergent,0.40640809443507586,241
+aluminum foil->eggs,0.40640809443507586,241
+tortillas->sugar,0.40636042402826855,230
+tortillas->cereals,0.40636042402826855,230
+eggs->juice,0.4061433447098976,238
+eggs->mixes,0.4061433447098976,238
+cereals->spaghetti sauce,0.40609137055837563,240
+ice cream->eggs,0.40609137055837563,240
+ice cream->bagels,0.40609137055837563,240
+lunch meat->butter,0.40604026845637586,242
+sugar->paper towels,0.40602836879432624,229
+beef->mixes,0.40602836879432624,229
+beef->juice,0.40602836879432624,229
+hand soap->juice,0.4059590316573557,218
+soap->flour,0.4059233449477352,233
+soap->paper towels,0.4059233449477352,233
+soap->beef,0.4059233449477352,233
+pasta->butter,0.4059233449477352,233
+soap->bagels,0.4059233449477352,233
+toilet paper->beef,0.4058721934369603,235
+toilet paper->tortillas,0.4058721934369603,235
+toilet paper->laundry detergent,0.4058721934369603,235
+sandwich bags->coffee/tea,0.4057971014492754,224
+soda->sandwich bags,0.4057724957555178,239
+soda->paper towels,0.4057724957555178,239
+soda->beef,0.4057724957555178,239
+soda->juice,0.4057724957555178,239
+soda->cereals,0.4057724957555178,239
+waffles->pasta,0.4056761268781302,243
+laundry detergent->ketchup,0.40559440559440557,232
+laundry detergent->pasta,0.40559440559440557,232
+mixes->lunch meat,0.4055459272097054,234
+dinner rolls->beef,0.4054982817869416,236
+dinner rolls->juice,0.4054982817869416,236
+vegetables->bagels,0.4054982817869416,472
+shampoo->eggs,0.40545454545454546,223
+bagels->coffee/tea,0.40545144804088584,238
+cheeses->sandwich loaves,0.40540540540540543,240
+sandwich loaves->dinner rolls,0.40535714285714286,227
+sandwich loaves->paper towels,0.40535714285714286,227
+sandwich loaves->cereals,0.40535714285714286,227
+sandwich loaves->butter,0.40535714285714286,227
+fruits->individual meals,0.40530973451327434,229
+pork->cereals,0.4051094890510949,222
+coffee/tea->individual meals,0.40484429065743943,234
+aluminum foil->lunch meat,0.40472175379426645,240
+dishwashing liquid/detergent->flour,0.40468227424749165,242
+spaghetti sauce->ketchup,0.40463458110516937,227
+tortillas->sandwich bags,0.4045936395759717,229
+tortillas->spaghetti sauce,0.4045936395759717,229
+tortillas->aluminum foil,0.4045936395759717,229
+tortillas->coffee/tea,0.4045936395759717,229
+juice->sandwich loaves,0.4045138888888889,233
+cereals->soda,0.40439932318104904,239
+cereals->aluminum foil,0.40439932318104904,239
+lunch meat->tortillas,0.40436241610738255,241
+sugar->shampoo,0.40425531914893614,228
+beef->individual meals,0.40425531914893614,228
+soap->ketchup,0.40418118466898956,232
+soap->spaghetti sauce,0.40418118466898956,232
+pasta->laundry detergent,0.40418118466898956,232
+soap->mixes,0.40418118466898956,232
+toilet paper-> purpose-all,0.40414507772020725,234
+hand soap->beef,0.40409683426443205,217
+hand soap->sandwich loaves,0.40409683426443205,217
+hand soap-> purpose-all,0.40409683426443205,217
+hand soap->flour,0.40409683426443205,217
+sandwich bags->pork,0.40398550724637683,223
+paper towels->sandwich loaves,0.40391459074733094,227
+paper towels->fruits,0.40391459074733094,227
+poultry->sandwich bags,0.40384615384615385,252
+laundry detergent->sugar,0.40384615384615385,231
+mixes-> purpose-all,0.4038128249566724,233
+dinner rolls->tortillas,0.40378006872852235,235
+bagels->paper towels,0.403747870528109,237
+cheeses->flour,0.40371621621621623,239
+shampoo->butter,0.4036363636363636,222
+shampoo->dishwashing liquid/detergent,0.4036363636363636,222
+sandwich loaves->toilet paper,0.4035714285714286,226
+aluminum foil->toilet paper,0.403035413153457,239
+aluminum foil->cereals,0.403035413153457,239
+tortillas->butter,0.4028268551236749,228
+milk->dinner rolls,0.4027538726333907,234
+eggs->butter,0.40273037542662116,236
+lunch meat->aluminum foil,0.40268456375838924,240
+beef->pork,0.4024822695035461,227
+sugar->butter,0.4024822695035461,227
+butter->soap,0.4024604569420035,229
+butter-> purpose-all,0.4024604569420035,229
+hand soap->cheeses,0.4022346368715084,216
+hand soap->toilet paper,0.4022346368715084,216
+sandwich bags->toilet paper,0.40217391304347827,222
+paper towels->sandwich bags,0.40213523131672596,226
+paper towels->butter,0.40213523131672596,226
+laundry detergent->fruits,0.4020979020979021,230
+all- purpose->coffee/tea,0.4020979020979021,230
+mixes->shampoo,0.4020797227036395,232
+mixes->soap,0.4020797227036395,232
+dinner rolls->milk,0.4020618556701031,234
+bagels->beef,0.4020442930153322,236
+bagels->butter,0.4020442930153322,236
+bagels-> purpose-all,0.4020442930153322,236
+bagels->laundry detergent,0.4020442930153322,236
+bagels->pasta,0.4020442930153322,236
+cheeses->sugar,0.40202702702702703,238
+fruits->paper towels,0.40176991150442476,227
+coffee/tea->beef,0.4013840830449827,232
+dishwashing liquid/detergent->beef,0.4013377926421405,240
+dishwashing liquid/detergent->coffee/tea,0.4013377926421405,240
+vegetables-poultry->coffee/tea,0.40119760479041916,201
+ketchup->yogurt,0.4010989010989011,219
+ketchup->milk,0.4010989010989011,219
+tortillas->soda,0.4010600706713781,227
+tortillas->pasta,0.4010600706713781,227
+tortillas->individual meals,0.4010600706713781,227
+individual meals->fruits,0.4010507880910683,229
+individual meals->pasta,0.4010507880910683,229
+individual meals->toilet paper,0.4010507880910683,229
+milk->tortillas,0.4010327022375215,233
+milk-> purpose-all,0.4010327022375215,233
+milk->cheeses,0.4010327022375215,233
+ice cream->sandwich loaves,0.4010152284263959,237
+ice cream-> purpose-all,0.4010152284263959,237
+lunch meat->shampoo,0.401006711409396,239
+lunch meat->milk,0.401006711409396,239
+lunch meat->bagels,0.401006711409396,239
+sugar->flour,0.40070921985815605,226
+sugar->fruits,0.40070921985815605,226
+butter->tortillas,0.4007029876977153,228
+butter->juice,0.4007029876977153,228
+pasta->fruits,0.40069686411149824,230
+pasta->milk,0.40069686411149824,230
+pasta->mixes,0.40069686411149824,230
+toilet paper->dishwashing liquid/detergent,0.4006908462867012,232
+soda->shampoo,0.400679117147708,236
+waffles->individual meals,0.4006677796327212,240
+waffles->soap,0.4006677796327212,240
+poultry->butter,0.40064102564102566,250
+vegetables-fruits->poultry,0.40043763676148797,183
+hand soap->tortillas,0.40037243947858475,215
+hand soap->cereals,0.40037243947858475,215
+hand soap->shampoo,0.40037243947858475,215
+mixes->hand soap,0.4003466204506066,231
+mixes->toilet paper,0.4003466204506066,231
+yogurt->sandwich bags,0.4,230
+yogurt->sandwich loaves,0.4,230
+fruits->sugar,0.4,226
+fruits->soap,0.4,226
+dishwashing liquid/detergent->sugar,0.3996655518394649,239
+aluminum foil->flour,0.3996627318718381,237
+aluminum foil->sandwich bags,0.3996627318718381,237
+aluminum foil-> purpose-all,0.3996627318718381,237
+pork->paper towels,0.39963503649635035,219
+flour->ice cream,0.39963503649635035,219
+flour->pasta,0.39963503649635035,219
+flour->sandwich loaves,0.39963503649635035,219
+flour->individual meals,0.39963503649635035,219
+vegetables->sugar,0.39948453608247425,465
+cereals->paper towels,0.3993231810490694,236
+cereals->fruits,0.3993231810490694,236
+cereals->toilet paper,0.3993231810490694,236
+cereals->waffles,0.3993231810490694,236
+individual meals->beef,0.39929947460595444,228
+ketchup->tortillas,0.3992673992673993,218
+ketchup->paper towels,0.3992673992673993,218
+ketchup->fruits,0.3992673992673993,218
+ketchup->shampoo,0.3992673992673993,218
+vegetables-poultry->soda,0.3992015968063872,200
+poultry->bagels,0.39903846153846156,249
+waffles->spaghetti sauce,0.3989983305509182,239
+waffles->paper towels,0.3989983305509182,239
+waffles->juice,0.3989983305509182,239
+toilet paper->shampoo,0.39896373056994816,231
+toilet paper->mixes,0.39896373056994816,231
+soap->butter,0.3989547038327526,229
+pasta->individual meals,0.3989547038327526,229
+butter->sandwich loaves,0.3989455184534271,227
+butter->sugar,0.3989455184534271,227
+sugar->hand soap,0.39893617021276595,225
+bagels->sandwich loaves,0.3986371379897785,234
+dinner rolls->ketchup,0.39862542955326463,232
+mixes->fruits,0.3986135181975737,230
+mixes->pasta,0.3986135181975737,230
+laundry detergent->shampoo,0.3986013986013986,228
+paper towels->yogurt,0.398576512455516,224
+sandwich bags->fruits,0.39855072463768115,220
+sandwich bags->spaghetti sauce,0.39855072463768115,220
+hand soap->laundry detergent,0.3985102420856611,214
+hand soap->coffee/tea,0.3985102420856611,214
+hand soap->butter,0.3985102420856611,214
+vegetables-bagels->poultry,0.3983050847457627,188
+yogurt->shampoo,0.3982608695652174,229
+sandwich loaves->ketchup,0.3982142857142857,223
+dishwashing liquid/detergent->butter,0.3979933110367893,238
+aluminum foil->butter,0.3979763912310287,236
+coffee/tea->pork,0.39792387543252594,230
+coffee/tea-> purpose-all,0.39792387543252594,230
+vegetables->spaghetti sauce,0.39776632302405496,463
+lunch meat->sandwich loaves,0.3976510067114094,237
+cereals->juice,0.3976311336717428,235
+juice->beef,0.3975694444444444,229
+individual meals->shampoo,0.3975481611208406,227
+individual meals->tortillas,0.3975481611208406,227
+spaghetti sauce->sugar,0.39750445632798576,223
+spaghetti sauce->butter,0.39750445632798576,223
+waffles->beef,0.3973288814691152,238
+soda->fruits,0.39728353140916806,234
+toilet paper->ketchup,0.39723661485319517,230
+toilet paper->spaghetti sauce,0.39723661485319517,230
+soap->pork,0.397212543554007,228
+vegetables-poultry->beef,0.3972055888223553,199
+vegetables-poultry->soap,0.3972055888223553,199
+vegetables-poultry->cereals,0.3972055888223553,199
+vegetables-poultry->cheeses,0.3972055888223553,199
+butter->paper towels,0.39718804920913886,226
+cheeses->coffee/tea,0.3969594594594595,235
+bagels->ketchup,0.3969335604770017,233
+bagels->soap,0.3969335604770017,233
+dinner rolls->paper towels,0.39690721649484534,231
+vegetables->soap,0.39690721649484534,462
+mixes->beef,0.3968804159445407,229
+paper towels->laundry detergent,0.39679715302491103,223
+sandwich bags->dinner rolls,0.3967391304347826,219
+hand soap->fruits,0.39664804469273746,213
+hand soap->bagels,0.39664804469273746,213
+yogurt->spaghetti sauce,0.39652173913043476,228
+shampoo->ketchup,0.39636363636363636,218
+shampoo->ice cream,0.39636363636363636,218
+dishwashing liquid/detergent->juice,0.3963210702341137,237
+aluminum foil->pork,0.3962900505902192,235
+aluminum foil->shampoo,0.3962900505902192,235
+aluminum foil->spaghetti sauce,0.3962900505902192,235
+aluminum foil->paper towels,0.3962900505902192,235
+coffee/tea->shampoo,0.3961937716262976,229
+coffee/tea->tortillas,0.3961937716262976,229
+vegetables->individual meals,0.3960481099656357,461
+vegetables->pasta,0.3960481099656357,461
+vegetables->dinner rolls,0.3960481099656357,461
+flour->hand soap,0.395985401459854,217
+ice cream->ketchup,0.39593908629441626,234
+cereals->butter,0.39593908629441626,234
+cereals->individual meals,0.39593908629441626,234
+eggs->sugar,0.39590443686006827,232
+milk->pasta,0.3958691910499139,230
+juice->butter,0.3958333333333333,228
+individual meals->juice,0.3957968476357268,226
+waffles->sandwich bags,0.39565943238731216,237
+waffles->mixes,0.39565943238731216,237
+soda->sandwich loaves,0.39558573853989815,233
+toilet paper->individual meals,0.3955094991364421,229
+pasta->tortillas,0.39547038327526135,227
+soap->yogurt,0.39547038327526135,227
+beef->ketchup,0.3953900709219858,223
+sugar->spaghetti sauce,0.3953900709219858,223
+sugar->aluminum foil,0.3953900709219858,223
+sugar->juice,0.3953900709219858,223
+sugar->coffee/tea,0.3953900709219858,223
+bagels->sandwich bags,0.39522998296422485,232
+dinner rolls-> purpose-all,0.3951890034364261,230
+vegetables->mixes,0.3951890034364261,460
+mixes->flour,0.3951473136915078,228
+sandwich bags-> purpose-all,0.39492753623188404,218
+sandwich bags->sandwich loaves,0.39492753623188404,218
+hand soap->ketchup,0.3947858472998138,212
+yogurt->soap,0.3947826086956522,227
+fruits->dinner rolls,0.39469026548672564,223
+sandwich loaves->fruits,0.39464285714285713,221
+aluminum foil->sandwich loaves,0.3946037099494098,234
+shampoo->fruits,0.39454545454545453,217
+lunch meat->sandwich bags,0.39429530201342283,235
+cereals->shampoo,0.3942470389170897,233
+ice cream->butter,0.3942470389170897,233
+poultry->shampoo,0.3942307692307692,246
+poultry->fruits,0.3942307692307692,246
+eggs->fruits,0.39419795221843,231
+flour->beef,0.39416058394160586,216
+flour->paper towels,0.39416058394160586,216
+tortillas->pork,0.39399293286219084,223
+waffles->pork,0.39398998330550916,236
+waffles->cereals,0.39398998330550916,236
+toilet paper->dinner rolls,0.39378238341968913,228
+pasta->ketchup,0.39372822299651566,226
+soap->shampoo,0.39372822299651566,226
+pasta->sandwich bags,0.39372822299651566,226
+soap->fruits,0.39372822299651566,226
+vegetables-ketchup->poultry,0.3936651583710407,174
+sugar->milk,0.39361702127659576,222
+cheeses->milk,0.3935810810810811,233
+bagels->sugar,0.393526405451448,231
+dinner rolls->flour,0.39347079037800686,229
+vegetables-> purpose-all,0.39347079037800686,458
+vegetables->toilet paper,0.39347079037800686,458
+dinner rolls->ice cream,0.39347079037800686,229
+dishwashing liquid/detergent->pork,0.39297658862876256,235
+hand soap->sandwich bags,0.3929236499068901,211
+hand soap->individual meals,0.3929236499068901,211
+fruits->milk,0.3929203539823009,222
+fruits->coffee/tea,0.3929203539823009,222
+poultry->tortillas,0.3926282051282051,245
+poultry->waffles,0.3926282051282051,245
+lunch meat->beef,0.3926174496644295,234
+lunch meat->mixes,0.3926174496644295,234
+vegetables->fruits,0.39261168384879724,457
+eggs->ketchup,0.3924914675767918,230
+eggs->pork,0.3924914675767918,230
+juice->individual meals,0.3923611111111111,226
+pork->toilet paper,0.39233576642335766,215
+flour->cereals,0.39233576642335766,215
+waffles->ketchup,0.39232053422370616,235
+spaghetti sauce->sandwich bags,0.39215686274509803,220
+pasta->hand soap,0.39198606271777003,225
+pasta->lunch meat,0.39198606271777003,225
+butter->spaghetti sauce,0.39191564147627417,223
+butter->yogurt,0.39191564147627417,223
+cheeses->paper towels,0.3918918918918919,232
+beef-> purpose-all,0.39184397163120566,221
+dinner rolls->hand soap,0.3917525773195876,228
+vegetables->juice,0.3917525773195876,456
+dinner rolls->toilet paper,0.3917525773195876,228
+mixes->ice cream,0.39168110918544197,226
+yogurt->pork,0.391304347826087,225
+sandwich bags->eggs,0.391304347826087,216
+fruits->sandwich loaves,0.3911504424778761,221
+fruits->toilet paper,0.3911504424778761,221
+sandwich loaves->flour,0.39107142857142857,219
+sandwich loaves->beef,0.39107142857142857,219
+sandwich loaves->pasta,0.39107142857142857,219
+hand soap->soap,0.39106145251396646,210
+lunch meat->pork,0.39093959731543626,233
+shampoo->hand soap,0.39090909090909093,215
+shampoo->sandwich bags,0.39090909090909093,215
+vegetables->paper towels,0.390893470790378,455
+ice cream->sandwich bags,0.39086294416243655,231
+ice cream->spaghetti sauce,0.39086294416243655,231
+milk->hand soap,0.39070567986230637,227
+milk->pork,0.39070567986230637,227
+milk->flour,0.39070567986230637,227
+waffles->sandwich loaves,0.39065108514190316,234
+juice->mixes,0.390625,225
+individual meals-> purpose-all,0.3905429071803853,223
+individual meals->mixes,0.3905429071803853,223
+pork->dinner rolls,0.3905109489051095,214
+pork->individual meals,0.3905109489051095,214
+pork->spaghetti sauce,0.3905109489051095,214
+tortillas->ice cream,0.39045936395759717,221
+spaghetti sauce->hand soap,0.39037433155080214,219
+toilet paper->sandwich loaves,0.3903281519861831,226
+pasta->shampoo,0.3902439024390244,224
+cheeses->beef,0.3902027027027027,231
+butter->shampoo,0.39015817223198596,222
+bagels->pork,0.3901192504258944,229
+dinner rolls->sandwich loaves,0.3900343642611684,227
+vegetables->butter,0.3900343642611684,454
+mixes->juice,0.389948006932409,225
+laundry detergent->flour,0.38986013986013984,223
+laundry detergent->paper towels,0.38986013986013984,223
+laundry detergent->waffles,0.38986013986013984,223
+paper towels->pork,0.3896797153024911,219
+dishwashing liquid/detergent->sandwich bags,0.3896321070234114,233
+yogurt->paper towels,0.38956521739130434,224
+sandwich bags->shampoo,0.3894927536231884,215
+poultry->sandwich loaves,0.3894230769230769,243
+fruits->sandwich bags,0.3893805309734513,220
+sandwich loaves->sandwich bags,0.3892857142857143,218
+coffee/tea->flour,0.3892733564013841,225
+vegetables-poultry->sandwich loaves,0.38922155688622756,195
+vegetables-poultry->toilet paper,0.38922155688622756,195
+cereals->sandwich bags,0.38917089678510997,230
+cereals->tortillas,0.38917089678510997,230
+shampoo->spaghetti sauce,0.3890909090909091,214
+eggs->lunch meat,0.3890784982935154,228
+waffles->butter,0.38898163606010017,233
+soda->ketchup,0.38879456706281834,229
+soda->pork,0.38879456706281834,229
+individual meals->dinner rolls,0.38879159369527144,222
+individual meals->milk,0.38879159369527144,222
+tortillas->soap,0.38869257950530034,220
+tortillas-> purpose-all,0.38869257950530034,220
+flour->juice,0.3886861313868613,213
+cheeses->ketchup,0.3885135135135135,230
+butter->coffee/tea,0.3884007029876977,221
+vegetables->sandwich bags,0.38831615120274915,452
+vegetables->sandwich loaves,0.38831615120274915,452
+beef->sandwich loaves,0.3882978723404255,219
+beef->pasta,0.3882978723404255,219
+ketchup->hand soap,0.3882783882783883,212
+ketchup->butter,0.3882783882783883,212
+dishwashing liquid/detergent->tortillas,0.3879598662207358,232
+dishwashing liquid/detergent->toilet paper,0.3879598662207358,232
+paper towels->ketchup,0.3879003558718861,218
+yogurt->butter,0.38782608695652177,223
+sandwich bags->juice,0.38768115942028986,214
+coffee/tea->sandwich bags,0.3875432525951557,224
+sandwich loaves->hand soap,0.3875,217
+ice cream->dinner rolls,0.38747884940778343,229
+waffles->tortillas,0.38731218697829717,232
+milk->shampoo,0.387263339070568,225
+juice->sugar,0.3871527777777778,223
+juice->cheeses,0.3871527777777778,223
+tortillas->yogurt,0.3869257950530035,219
+tortillas->cheeses,0.3869257950530035,219
+pork->laundry detergent,0.38686131386861317,212
+pork->sugar,0.38686131386861317,212
+flour->shampoo,0.38686131386861317,212
+flour->bagels,0.38686131386861317,212
+flour->tortillas,0.38686131386861317,212
+cheeses->shampoo,0.38682432432432434,229
+cheeses-> purpose-all,0.38682432432432434,229
+mixes->individual meals,0.38648180242634317,223
+ketchup->lunch meat,0.38644688644688646,211
+ketchup->sugar,0.38644688644688646,211
+dishwashing liquid/detergent->ketchup,0.3862876254180602,231
+poultry->pork,0.38621794871794873,241
+aluminum foil->tortillas,0.38617200674536256,229
+fruits->ketchup,0.3858407079646018,218
+coffee/tea->sugar,0.38581314878892736,223
+vegetables->coffee/tea,0.3857388316151203,449
+sandwich loaves->milk,0.38571428571428573,216
+hand soap->paper towels,0.3854748603351955,207
+hand soap->pork,0.3854748603351955,207
+shampoo->flour,0.38545454545454544,212
+soda->tortillas,0.3853989813242784,227
+tortillas->ketchup,0.38515901060070673,218
+toilet paper->flour,0.385146804835924,223
+pork->shampoo,0.38503649635036497,211
+beef->hand soap,0.38475177304964536,217
+dishwashing liquid/detergent->spaghetti sauce,0.38461538461538464,230
+poultry->pasta,0.38461538461538464,240
+aluminum foil->ketchup,0.3844856661045531,228
+paper towels->flour,0.38434163701067614,216
+paper towels->tortillas,0.38434163701067614,216
+lunch meat->flour,0.38422818791946306,229
+cereals->sandwich loaves,0.3840947546531303,227
+cereals-> purpose-all,0.3840947546531303,227
+coffee/tea->fruits,0.38408304498269896,222
+fruits->shampoo,0.384070796460177,217
+fruits->tortillas,0.384070796460177,217
+sandwich bags->individual meals,0.38405797101449274,212
+sandwich loaves->sugar,0.38392857142857145,215
+soda-> purpose-all,0.3837011884550085,226
+shampoo->pork,0.3836363636363636,211
+individual meals->flour,0.38353765323992994,219
+toilet paper->sandwich bags,0.38341968911917096,222
+tortillas->fruits,0.3833922261484099,217
+tortillas->juice,0.3833922261484099,217
+soap->tortillas,0.3832752613240418,220
+spaghetti sauce->coffee/tea,0.38324420677361853,215
+pork->butter,0.38321167883211676,210
+pork->sandwich loaves,0.38321167883211676,210
+flour->fruits,0.38321167883211676,210
+vegetables->beef,0.38316151202749144,446
+dinner rolls->fruits,0.38316151202749144,223
+poultry->flour,0.38301282051282054,239
+beef->flour,0.3829787234042553,216
+vegetables-waffles->poultry,0.38289205702647655,188
+laundry detergent->coffee/tea,0.38286713286713286,219
+lunch meat->eggs,0.3825503355704698,228
+ice cream->mixes,0.3824027072758037,226
+coffee/tea->butter,0.38235294117647056,221
+fruits->butter,0.3823008849557522,216
+eggs->flour,0.3822525597269625,224
+sandwich bags->hand soap,0.3822463768115942,211
+milk->sugar,0.38209982788296043,222
+milk->fruits,0.38209982788296043,222
+milk->individual meals,0.38209982788296043,222
+soda->hand soap,0.38200339558573854,225
+cheeses->pork,0.38175675675675674,226
+hand soap->yogurt,0.3817504655493482,205
+toilet paper->fruits,0.38169257340241797,221
+tortillas->paper towels,0.38162544169611307,216
+pasta->flour,0.38153310104529614,219
+pasta->sandwich loaves,0.38153310104529614,219
+pasta->beef,0.38153310104529614,219
+spaghetti sauce->pork,0.38146167557932265,214
+spaghetti sauce->shampoo,0.38146167557932265,214
+vegetables->shampoo,0.38144329896907214,444
+dinner rolls->individual meals,0.38144329896907214,222
+poultry->ketchup,0.3814102564102564,238
+pork->pasta,0.3813868613138686,209
+flour->spaghetti sauce,0.3813868613138686,209
+butter->milk,0.38137082601054484,217
+vegetables-poultry->sandwich bags,0.3812375249500998,191
+vegetables-poultry->individual meals,0.3812375249500998,191
+sugar->sandwich loaves,0.38120567375886527,215
+sugar->mixes,0.38120567375886527,215
+laundry detergent-> purpose-all,0.3811188811188811,218
+yogurt->ketchup,0.3808695652173913,219
+yogurt->tortillas,0.3808695652173913,219
+waffles->hand soap,0.3806343906510851,228
+waffles->shampoo,0.3806343906510851,228
+vegetables->tortillas,0.3805841924398625,443
+eggs->shampoo,0.38054607508532423,223
+sandwich loaves->dishwashing liquid/detergent,0.38035714285714284,213
+tortillas->hand soap,0.37985865724381623,215
+tortillas->laundry detergent,0.37985865724381623,215
+vegetables->ketchup,0.3797250859106529,442
+dinner rolls->vegetables-poultry,0.3797250859106529,221
+butter->fruits,0.37961335676625657,216
+pork->ice cream,0.3795620437956204,208
+vegetables-poultry->paper towels,0.37924151696606784,190
+ketchup->individual meals,0.3791208791208791,207
+coffee/tea->laundry detergent,0.3788927335640138,219
+vegetables->flour,0.3788659793814433,441
+sandwich bags->sugar,0.3786231884057971,209
+sandwich loaves->eggs,0.37857142857142856,212
+sandwich loaves->laundry detergent,0.37857142857142856,212
+juice->hand soap,0.3784722222222222,218
+pork->hand soap,0.3777372262773723,207
+lunch meat->pasta,0.3775167785234899,225
+cereals->ketchup,0.377326565143824,223
+vegetables-poultry->shampoo,0.3772455089820359,189
+fruits->hand soap,0.3769911504424779,213
+milk->ketchup,0.3769363166953528,219
+milk->waffles,0.3769363166953528,219
+juice->tortillas,0.3767361111111111,217
+cheeses->juice,0.3766891891891892,223
+poultry->hand soap,0.3766025641025641,235
+dinner rolls->sandwich bags,0.37628865979381443,219
+butter->hand soap,0.37609841827768015,214
+aluminum foil->sugar,0.3760539629005059,223
+flour->sandwich bags,0.3759124087591241,206
+sugar->pork,0.375886524822695,212
+beef->laundry detergent,0.375886524822695,212
+beef->tortillas,0.375886524822695,212
+sugar->vegetables-poultry,0.375886524822695,212
+laundry detergent->tortillas,0.3758741258741259,215
+laundry detergent->vegetables-poultry,0.3758741258741259,215
+cereals->pork,0.3756345177664975,222
+vegetables-poultry->butter,0.37524950099800397,188
+vegetables-poultry->pasta,0.37524950099800397,188
+vegetables-poultry->bagels,0.37524950099800397,188
+vegetables-poultry->waffles,0.37524950099800397,188
+fruits->juice,0.3752212389380531,212
+sandwich loaves->pork,0.375,210
+individual meals->pork,0.37478108581436076,214
+vegetables->pork,0.3745704467353952,436
+tortillas->flour,0.3745583038869258,212
+tortillas->beef,0.3745583038869258,212
+laundry detergent->hand soap,0.3741258741258741,214
+sugar->ketchup,0.374113475177305,211
+ice cream->tortillas,0.3739424703891709,221
+eggs->hand soap,0.37372013651877134,219
+milk->butter,0.37349397590361444,217
+poultry->paper towels,0.3733974358974359,233
+vegetables-poultry->tortillas,0.37325349301397204,187
+vegetables-poultry-> purpose-all,0.37325349301397204,187
+sandwich bags->flour,0.37318840579710144,206
+toilet paper->hand soap,0.37305699481865284,216
+mixes->sugar,0.37261698440207974,215
+butter->ketchup,0.37258347978910367,212
+spaghetti sauce->flour,0.37254901960784315,209
+waffles->flour,0.3722871452420701,223
+waffles->laundry detergent,0.3722871452420701,223
+coffee/tea->spaghetti sauce,0.3719723183391003,215
+milk->sandwich loaves,0.3717728055077453,216
+fruits->flour,0.37168141592920356,210
+juice->sandwich bags,0.3715277777777778,214
+sandwich loaves->tortillas,0.37142857142857144,208
+toilet paper->pork,0.37132987910189985,215
+individual meals->sandwich bags,0.3712784588441331,212
+dishwashing liquid/detergent->shampoo,0.3712374581939799,222
+dishwashing liquid/detergent->vegetables-poultry,0.3712374581939799,222
+aluminum foil->hand soap,0.37099494097807756,220
+lunch meat->hand soap,0.37080536912751677,221
+laundry detergent->pork,0.3706293706293706,212
+laundry detergent->sandwich loaves,0.3706293706293706,212
+laundry detergent->beef,0.3706293706293706,212
+sugar->sandwich bags,0.37056737588652483,209
+ice cream->hand soap,0.37055837563451777,219
+ice cream->flour,0.37055837563451777,219
+flour->butter,0.3704379562043796,203
+yogurt->vegetables-poultry,0.37043478260869567,213
+coffee/tea->hand soap,0.370242214532872,214
+cheeses->tortillas,0.36993243243243246,219
+juice->flour,0.3697916666666667,213
+individual meals->hand soap,0.36952714535901926,211
+shampoo->tortillas,0.3690909090909091,203
+butter->pork,0.36906854130052724,210
+ice cream->shampoo,0.3688663282571912,218
+pork->fruits,0.3686131386861314,202
+eggs->sandwich bags,0.36860068259385664,216
+paper towels->hand soap,0.3683274021352313,207
+juice->fruits,0.3680555555555556,212
+dinner rolls->pork,0.36769759450171824,214
+tortillas->sandwich loaves,0.3674911660777385,208
+spaghetti sauce->vegetables-poultry,0.3672014260249554,206
+dishwashing liquid/detergent->hand soap,0.36622073578595316,219
+soap->hand soap,0.36585365853658536,210
+waffles->milk,0.3656093489148581,219
+vegetables-poultry->fruits,0.3652694610778443,183
+vegetables->hand soap,0.3651202749140893,425
+cheeses->hand soap,0.36486486486486486,216
+pasta->pork,0.3641114982578397,209
+mixes->vegetables-poultry,0.36395147313691506,210
+cereals->hand soap,0.3637901861252115,215
+cereals->flour,0.3637901861252115,215
+vegetables-poultry->flour,0.36327345309381237,182
+bagels->hand soap,0.3628620102214651,213
+individual meals->ketchup,0.36252189141856395,207
+eggs->sandwich loaves,0.36177474402730375,212
+bagels->flour,0.36115843270868825,212
+lunch meat->vegetables-poultry,0.35906040268456374,214
+tortillas->shampoo,0.3586572438162544,203
+eggs->vegetables-poultry,0.3583617747440273,210
+juice->vegetables-poultry,0.3576388888888889,206
+fruits->pork,0.35752212389380533,202
+butter->flour,0.35676625659050965,203
+yogurt->hand soap,0.3565217391304348,205
+beef->butter,0.35638297872340424,201
+dishwashing liquid/detergent->sandwich loaves,0.35618729096989965,213
+poultry->vegetables-dishwashing liquid/detergent,0.3557692307692308,222
+poultry->vegetables-dinner rolls,0.3541666666666667,221
+aluminum foil->vegetables-poultry,0.35413153456998314,210
+lunch meat->ketchup,0.3540268456375839,211
+butter->beef,0.3532513181019332,201
+milk->vegetables-poultry,0.3528399311531842,205
+beef->vegetables-poultry,0.3528368794326241,199
+ice cream->pork,0.35194585448392557,208
+sandwich loaves->vegetables-poultry,0.3482142857142857,195
+coffee/tea->vegetables-poultry,0.3477508650519031,201
+vegetables-poultry->ketchup,0.3473053892215569,174
+soap->vegetables-poultry,0.34668989547038326,199
+sandwich bags->vegetables-poultry,0.34601449275362317,191
+ice cream->vegetables-poultry,0.34517766497461927,204
+poultry->laundry detergent-vegetables,0.34455128205128205,215
+shampoo->vegetables-poultry,0.34363636363636363,189
+poultry->lunch meat-vegetables,0.34294871794871795,214
+poultry->vegetables-yogurt,0.34134615384615385,213
+vegetables-poultry->hand soap,0.3413173652694611,171
+poultry->vegetables-sugar,0.33974358974358976,212
+soda->vegetables-poultry,0.3395585738539898,200
+paper towels->vegetables-poultry,0.33807829181494664,190
+toilet paper->vegetables-poultry,0.33678756476683935,195
+cereals->vegetables-poultry,0.33671742808798644,199
+poultry->vegetables-mixes,0.33653846153846156,210
+poultry->eggs-vegetables,0.33653846153846156,210
+poultry->vegetables-aluminum foil,0.33653846153846156,210
+cheeses->vegetables-poultry,0.33614864864864863,199
+vegetables-poultry->pork,0.33532934131736525,168
+individual meals->vegetables-poultry,0.3345008756567426,191
+flour->vegetables-poultry,0.33211678832116787,182
+butter->vegetables-poultry,0.3304042179261863,188
+tortillas->vegetables-poultry,0.3303886925795053,187
+poultry->spaghetti sauce-vegetables,0.3301282051282051,206
+poultry->vegetables-juice,0.3301282051282051,206
+poultry->milk-vegetables,0.328525641025641,205
+pasta->vegetables-poultry,0.32752613240418116,188
+all- purpose->vegetables-poultry,0.3269230769230769,187
+poultry->ice cream-vegetables,0.3269230769230769,204
+fruits->vegetables-poultry,0.3238938053097345,183
+poultry->vegetables-coffee/tea,0.32211538461538464,201
+poultry->vegetables-soda,0.32051282051282054,200
+bagels->vegetables-poultry,0.3202725724020443,188
+poultry->beef-vegetables,0.3189102564102564,199
+poultry->vegetables-soap,0.3189102564102564,199
+poultry->cereals-vegetables,0.3189102564102564,199
+poultry->cheeses-vegetables,0.3189102564102564,199
+ketchup->vegetables-poultry,0.31868131868131866,174
+hand soap->vegetables-poultry,0.31843575418994413,171
+waffles->vegetables-poultry,0.31385642737896496,188
+poultry->vegetables-sandwich loaves,0.3125,195
+poultry->toilet paper-vegetables,0.3125,195
+pork->vegetables-poultry,0.30656934306569344,168
+poultry->vegetables-sandwich bags,0.3060897435897436,191
+poultry->individual meals-vegetables,0.3060897435897436,191
+poultry->vegetables-paper towels,0.30448717948717946,190
+poultry->vegetables-shampoo,0.30288461538461536,189
+poultry->butter-vegetables,0.30128205128205127,188
+poultry->vegetables-pasta,0.30128205128205127,188
+poultry->vegetables-bagels,0.30128205128205127,188
+poultry->vegetables-waffles,0.30128205128205127,188
+poultry->vegetables-tortillas,0.29967948717948717,187
+poultry->vegetables- purpose-all,0.29967948717948717,187
+poultry->vegetables-fruits,0.2932692307692308,183
+poultry->vegetables-flour,0.2916666666666667,182
+poultry->vegetables-ketchup,0.27884615384615385,174
+poultry->hand soap-vegetables,0.27403846153846156,171
+poultry->pork-vegetables,0.2692307692307692,168
